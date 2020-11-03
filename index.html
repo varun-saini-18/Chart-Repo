@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pol Results with Chart.js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+<h1>Age vs Population Distribution!</h1>
+<div class="chart-container">
+  <canvas id="chart"></canvas>
+</div>
+
+<br>
+
+<div style="margin-left:650px;">
+  <td><select name="voucher" id="axis-input">
+      <option value="Age">Age</option>
+      <option value="Population">People</option>
+  </select></td>
+  <button id="axis-btn">Select X Axis</button>
+</div>
+</body>
+</html>

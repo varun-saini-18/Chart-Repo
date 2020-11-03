@@ -1,0 +1,50 @@
+[
+        {
+          "age": 23,
+          "population": 5,
+          "maried": 2,
+          "color": "rgb(255, 99, 132)"
+        },
+        {
+          "age": 25,
+          "population": 11,
+          "maried": 8,
+          "color": "rgb(54, 162, 235)"
+        },
+        {
+          "age": 27,
+          "population": 14,
+          "maried": 7,
+          "color": "rgb(36, 36, 36)"
+        },
+        {
+          "age": 20,
+          "population": 19,
+          "maried": 5,
+          "color": "rgb(255, 159, 64)"
+        },
+        {
+          "age": 24,
+          "population": 9,
+          "maried": 9,
+          "color": "rgb(255, 99, 132)"
+        },
+        {
+          "age": 21,
+          "population": 13,
+          "maried": 3,
+          "color": "rgb(54, 162, 235)"
+        },
+        {
+          "age": 26,
+          "population": 15,
+          "maried": 0,
+          "color": "rgb(36, 36, 36)"
+        },
+        {
+          "age": 22,
+          "population": 11,
+          "maried": 8,
+          "color": "rgb(255, 159, 64)"
+        }
+]
