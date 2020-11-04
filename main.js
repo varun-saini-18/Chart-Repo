@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // This function will choose axis.
   axisBtn.onclick = function () {
+    var clearOldCanva =document.getElementById('chart').getContext('2d');
+    clearOldCanva.clearRect(0, 0, canvas.width, canvas.height);
     const axisValue = document.querySelector('#axis-input').value;
     if (axisValue === Object.keys(pollData[0])[0]) {
       func(pollData,firstKey,secondKey);
